@@ -9,7 +9,13 @@ import SwiftUI
 
 struct Shapes: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+//        Circle()
+////            .stroke(Color.red)
+//            .trim(from: 0.2, to: 1.0)
+//            .stroke(Color.gray, lineWidth: 50)
+        
+        Ellipse()
+            .frame(width: 200, height: 200)
     }
 }
 

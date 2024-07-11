@@ -8,8 +8,57 @@
 import SwiftUI
 
 struct SubviewsSwiftUIView: View {
+    @State var backgroundColor: Color = Color.pink
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+
+            backgroundColor.ignoresSafeArea(.all)
+            
+            //content
+//            contentLayer
+            
+            VStack {
+                Text("Title")
+                    .font(.largeTitle)
+                
+                Button(action: {
+                    buttonPressed()
+                }, label: {
+                    Text("PRESS ME")
+                        .font(.headline)
+                        .foregroundStyle(.white)
+                        .padding()
+                        .padding(.horizontal, 10)
+                        .background(Color.blue)
+                        .cornerRadius(10)
+                })
+            }
+        }
+    }
+//    
+//    var contentLayer: some View {
+//        
+//        VStack {
+//            Text("Title")
+//                .font(.largeTitle)
+//            
+//            Button(action: {
+//                buttonPressed()
+//            }, label: {
+//                Text("PRESS ME")
+//                    .font(.headline)
+//                    .foregroundStyle(.white)
+//                    .padding()
+//                    .padding(.horizontal, 10)
+//                    .background(Color.blue)
+//                    .cornerRadius(10)
+//            })
+//        }
+//    }
+    
+    func buttonPressed() {
+        backgroundColor = .yellow
     }
 }
 
