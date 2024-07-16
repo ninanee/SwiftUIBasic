@@ -46,6 +46,29 @@
 		96DB86262C3F23150088CC93 /* ModelSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB86252C3F23150088CC93 /* ModelSwiftUIView.swift */; };
 		96DB86282C3F273A0088CC93 /* ViewModelSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB86272C3F273A0088CC93 /* ViewModelSwiftUIView.swift */; };
 		96DB862A2C402F950088CC93 /* EnvironmentObjectSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB86292C402F950088CC93 /* EnvironmentObjectSwiftUIView.swift */; };
+		96DB862C2C4063CF0088CC93 /* AppStorageSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB862B2C4063CF0088CC93 /* AppStorageSwiftUIView.swift */; };
+		96DB862E2C4078A50088CC93 /* AsyncImageSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB862D2C4078A50088CC93 /* AsyncImageSwiftUIView.swift */; };
+		96DB86302C41753D0088CC93 /* BackgroundSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB862F2C41753D0088CC93 /* BackgroundSwiftUIView.swift */; };
+		96DB86322C4190200088CC93 /* TextSelectionSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB86312C4190200088CC93 /* TextSelectionSwiftUIView.swift */; };
+		96DB86342C4190A80088CC93 /* ButtonStyleSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB86332C4190A80088CC93 /* ButtonStyleSwiftUIView.swift */; };
+		96DB86362C4193C80088CC93 /*  ListSwipeSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB86352C4193C80088CC93 /*  ListSwipeSwiftUIView.swift */; };
+		96DB86382C41BA200088CC93 /* BadgeSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB86372C41BA200088CC93 /* BadgeSwiftUIView.swift */; };
+		96DB863A2C41BFAB0088CC93 /* FocusStateSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB86392C41BFAB0088CC93 /* FocusStateSwiftUIView.swift */; };
+		96DB863C2C41CAF60088CC93 /* CustomizingKeyboardSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB863B2C41CAF60088CC93 /* CustomizingKeyboardSwiftUIView.swift */; };
+		96DB863E2C4561390088CC93 /* NavigationStackSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB863D2C4561390088CC93 /* NavigationStackSwiftUIView.swift */; };
+		96DB86402C45A2980088CC93 /* ToolbarSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB863F2C45A2980088CC93 /* ToolbarSwiftUIView.swift */; };
+		96DB86422C45AC6A0088CC93 /* ResizableSheetsSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB86412C45AC6A0088CC93 /* ResizableSheetsSwiftUIView.swift */; };
+		96DB86442C45B4EC0088CC93 /* SafeAreaInsetsSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB86432C45B4EC0088CC93 /* SafeAreaInsetsSwiftUIView.swift */; };
+		96DB86462C45B6BD0088CC93 /* GroupSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB86452C45B6BD0088CC93 /* GroupSwiftUIView.swift */; };
+		96DB86482C45B7830088CC93 /* NewAnimationSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB86472C45B7830088CC93 /* NewAnimationSwiftUIView.swift */; };
+		96DB864A2C45CE3E0088CC93 /* PopoverSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB86492C45CE3E0088CC93 /* PopoverSwiftUIView.swift */; };
+		96DB864C2C46B2060088CC93 /* AnyLayoutSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB864B2C46B2060088CC93 /* AnyLayoutSwiftUIView.swift */; };
+		96DB864E2C46BBD10088CC93 /* ViewThatFitsSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB864D2C46BBD10088CC93 /* ViewThatFitsSwiftUIView.swift */; };
+		96DB86502C46BF740088CC93 /* NavigationSplitViewSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB864F2C46BF740088CC93 /* NavigationSplitViewSwiftUIView.swift */; };
+		96DB86522C46C0B20088CC93 /* GridsSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB86512C46C0B20088CC93 /* GridsSwiftUIView.swift */; };
+		96DB86542C46CBCA0088CC93 /* ContentUnavailableViewSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB86532C46CBCA0088CC93 /* ContentUnavailableViewSwiftUIView.swift */; };
+		96DB86562C46E6EF0088CC93 /* ControlGroupSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB86552C46E6EF0088CC93 /* ControlGroupSwiftUIView.swift */; };
+		96DB86582C46E8380088CC93 /* ObservableMacroSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96DB86572C46E8380088CC93 /* ObservableMacroSwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +112,29 @@
 		96DB86252C3F23150088CC93 /* ModelSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelSwiftUIView.swift; sourceTree = "<group>"; };
 		96DB86272C3F273A0088CC93 /* ViewModelSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelSwiftUIView.swift; sourceTree = "<group>"; };
 		96DB86292C402F950088CC93 /* EnvironmentObjectSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectSwiftUIView.swift; sourceTree = "<group>"; };
+		96DB862B2C4063CF0088CC93 /* AppStorageSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageSwiftUIView.swift; sourceTree = "<group>"; };
+		96DB862D2C4078A50088CC93 /* AsyncImageSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageSwiftUIView.swift; sourceTree = "<group>"; };
+		96DB862F2C41753D0088CC93 /* BackgroundSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundSwiftUIView.swift; sourceTree = "<group>"; };
+		96DB86312C4190200088CC93 /* TextSelectionSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSelectionSwiftUIView.swift; sourceTree = "<group>"; };
+		96DB86332C4190A80088CC93 /* ButtonStyleSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleSwiftUIView.swift; sourceTree = "<group>"; };
+		96DB86352C4193C80088CC93 /*  ListSwipeSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " ListSwipeSwiftUIView.swift"; sourceTree = "<group>"; };
+		96DB86372C41BA200088CC93 /* BadgeSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSwiftUIView.swift; sourceTree = "<group>"; };
+		96DB86392C41BFAB0088CC93 /* FocusStateSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusStateSwiftUIView.swift; sourceTree = "<group>"; };
+		96DB863B2C41CAF60088CC93 /* CustomizingKeyboardSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizingKeyboardSwiftUIView.swift; sourceTree = "<group>"; };
+		96DB863D2C4561390088CC93 /* NavigationStackSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackSwiftUIView.swift; sourceTree = "<group>"; };
+		96DB863F2C45A2980088CC93 /* ToolbarSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarSwiftUIView.swift; sourceTree = "<group>"; };
+		96DB86412C45AC6A0088CC93 /* ResizableSheetsSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizableSheetsSwiftUIView.swift; sourceTree = "<group>"; };
+		96DB86432C45B4EC0088CC93 /* SafeAreaInsetsSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaInsetsSwiftUIView.swift; sourceTree = "<group>"; };
+		96DB86452C45B6BD0088CC93 /* GroupSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupSwiftUIView.swift; sourceTree = "<group>"; };
+		96DB86472C45B7830088CC93 /* NewAnimationSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAnimationSwiftUIView.swift; sourceTree = "<group>"; };
+		96DB86492C45CE3E0088CC93 /* PopoverSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverSwiftUIView.swift; sourceTree = "<group>"; };
+		96DB864B2C46B2060088CC93 /* AnyLayoutSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyLayoutSwiftUIView.swift; sourceTree = "<group>"; };
+		96DB864D2C46BBD10088CC93 /* ViewThatFitsSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThatFitsSwiftUIView.swift; sourceTree = "<group>"; };
+		96DB864F2C46BF740088CC93 /* NavigationSplitViewSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSplitViewSwiftUIView.swift; sourceTree = "<group>"; };
+		96DB86512C46C0B20088CC93 /* GridsSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridsSwiftUIView.swift; sourceTree = "<group>"; };
+		96DB86532C46CBCA0088CC93 /* ContentUnavailableViewSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentUnavailableViewSwiftUIView.swift; sourceTree = "<group>"; };
+		96DB86552C46E6EF0088CC93 /* ControlGroupSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlGroupSwiftUIView.swift; sourceTree = "<group>"; };
+		96DB86572C46E8380088CC93 /* ObservableMacroSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableMacroSwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +204,29 @@
 				96DB86252C3F23150088CC93 /* ModelSwiftUIView.swift */,
 				96DB86272C3F273A0088CC93 /* ViewModelSwiftUIView.swift */,
 				96DB86292C402F950088CC93 /* EnvironmentObjectSwiftUIView.swift */,
+				96DB862B2C4063CF0088CC93 /* AppStorageSwiftUIView.swift */,
+				96DB862D2C4078A50088CC93 /* AsyncImageSwiftUIView.swift */,
+				96DB862F2C41753D0088CC93 /* BackgroundSwiftUIView.swift */,
+				96DB86312C4190200088CC93 /* TextSelectionSwiftUIView.swift */,
+				96DB86332C4190A80088CC93 /* ButtonStyleSwiftUIView.swift */,
+				96DB86352C4193C80088CC93 /*  ListSwipeSwiftUIView.swift */,
+				96DB86372C41BA200088CC93 /* BadgeSwiftUIView.swift */,
+				96DB86392C41BFAB0088CC93 /* FocusStateSwiftUIView.swift */,
+				96DB863B2C41CAF60088CC93 /* CustomizingKeyboardSwiftUIView.swift */,
+				96DB863D2C4561390088CC93 /* NavigationStackSwiftUIView.swift */,
+				96DB863F2C45A2980088CC93 /* ToolbarSwiftUIView.swift */,
+				96DB86412C45AC6A0088CC93 /* ResizableSheetsSwiftUIView.swift */,
+				96DB86432C45B4EC0088CC93 /* SafeAreaInsetsSwiftUIView.swift */,
+				96DB86452C45B6BD0088CC93 /* GroupSwiftUIView.swift */,
+				96DB86472C45B7830088CC93 /* NewAnimationSwiftUIView.swift */,
+				96DB86492C45CE3E0088CC93 /* PopoverSwiftUIView.swift */,
+				96DB864B2C46B2060088CC93 /* AnyLayoutSwiftUIView.swift */,
+				96DB864D2C46BBD10088CC93 /* ViewThatFitsSwiftUIView.swift */,
+				96DB864F2C46BF740088CC93 /* NavigationSplitViewSwiftUIView.swift */,
+				96DB86512C46C0B20088CC93 /* GridsSwiftUIView.swift */,
+				96DB86532C46CBCA0088CC93 /* ContentUnavailableViewSwiftUIView.swift */,
+				96DB86552C46E6EF0088CC93 /* ControlGroupSwiftUIView.swift */,
+				96DB86572C46E8380088CC93 /* ObservableMacroSwiftUIView.swift */,
 				96B1FEF42C35CDDE00AEC78E /* Assets.xcassets */,
 				96B1FEF62C35CDDE00AEC78E /* Preview Content */,
 			);
@@ -244,11 +313,20 @@
 			files = (
 				96DB86182C3EDC480088CC93 /* DataPickerSwiftUIView.swift in Sources */,
 				96DB86202C3F12B00088CC93 /* DarkModeSwiftUIView.swift in Sources */,
+				96DB86322C4190200088CC93 /* TextSelectionSwiftUIView.swift in Sources */,
 				96DB861C2C3F043B0088CC93 /* SliderSwiftUIView.swift in Sources */,
+				96DB86362C4193C80088CC93 /*  ListSwipeSwiftUIView.swift in Sources */,
 				96DB861E2C3F07470088CC93 /* TabViewSwiftUIView.swift in Sources */,
 				96B1FEF32C35CDDC00AEC78E /* ContentView.swift in Sources */,
 				96DB85FE2C3C26630088CC93 /* ConditionalSwiftUIView.swift in Sources */,
+				96DB863C2C41CAF60088CC93 /* CustomizingKeyboardSwiftUIView.swift in Sources */,
+				96DB864C2C46B2060088CC93 /* AnyLayoutSwiftUIView.swift in Sources */,
 				96DB86022C3C3D420088CC93 /* AnimationTimingSwiftUIView.swift in Sources */,
+				96DB86342C4190A80088CC93 /* ButtonStyleSwiftUIView.swift in Sources */,
+				96DB86382C41BA200088CC93 /* BadgeSwiftUIView.swift in Sources */,
+				96DB864A2C45CE3E0088CC93 /* PopoverSwiftUIView.swift in Sources */,
+				96DB86482C45B7830088CC93 /* NewAnimationSwiftUIView.swift in Sources */,
+				96DB86402C45A2980088CC93 /* ToolbarSwiftUIView.swift in Sources */,
 				96DB85F02C3701F40088CC93 /* InitializerSwiftUIView.swift in Sources */,
 				96DB85FC2C3C1EC80088CC93 /* bindingSwiftUIView.swift in Sources */,
 				96B1FEF12C35CDDC00AEC78E /* SwiftUIBasicApp.swift in Sources */,
@@ -257,27 +335,41 @@
 				96DB85EC2C36E07F0088CC93 /* GradientSwiftUIView.swift in Sources */,
 				96DB862A2C402F950088CC93 /* EnvironmentObjectSwiftUIView.swift in Sources */,
 				96DB86102C3EB4A30088CC93 /* TextEditorSwiftUIView.swift in Sources */,
+				96DB86462C45B6BD0088CC93 /* GroupSwiftUIView.swift in Sources */,
 				96DB85F82C38939A0088CC93 /* StateSwiftUIView.swift in Sources */,
 				96DB85EE2C36ECB00088CC93 /* BackgroundOverlaySwiftUIView.swift in Sources */,
 				96DB85F22C3744380088CC93 /* ScrollviewSwiftUIView.swift in Sources */,
+				96DB862C2C4063CF0088CC93 /* AppStorageSwiftUIView.swift in Sources */,
 				96B1FEFF2C35D11700AEC78E /* TextSwiftUIView.swift in Sources */,
+				96DB86422C45AC6A0088CC93 /* ResizableSheetsSwiftUIView.swift in Sources */,
+				96DB86302C41753D0088CC93 /* BackgroundSwiftUIView.swift in Sources */,
+				96DB86522C46C0B20088CC93 /* GridsSwiftUIView.swift in Sources */,
 				96B1FF032C35E06D00AEC78E /* ColorsBootcamp.swift in Sources */,
 				96DB86282C3F273A0088CC93 /* ViewModelSwiftUIView.swift in Sources */,
 				96DB86162C3EDA8F0088CC93 /* ColorPickerSwiftUIView.swift in Sources */,
 				96DB86002C3C3A5F0088CC93 /* AnimationSwiftUIView.swift in Sources */,
 				96DB85F42C38860B0088CC93 /* GridSwiftUIView.swift in Sources */,
 				96DB86242C3F211B0088CC93 /* TapGestureSwiftUIView.swift in Sources */,
+				96DB864E2C46BBD10088CC93 /* ViewThatFitsSwiftUIView.swift in Sources */,
 				96DB86082C3D85940088CC93 /* ListSwiftUIView.swift in Sources */,
 				96DB86062C3C8AF80088CC93 /* SheetSwiftUIView.swift in Sources */,
 				96DB86222C3F195B0088CC93 /* OnAppeaerSwiftUIView.swift in Sources */,
 				96DB860E2C3DD3090088CC93 /* ContextMenuSwiftUIView.swift in Sources */,
 				96DB86262C3F23150088CC93 /* ModelSwiftUIView.swift in Sources */,
+				96DB86502C46BF740088CC93 /* NavigationSplitViewSwiftUIView.swift in Sources */,
 				96B1FF012C35D8C600AEC78E /* Shapes.swift in Sources */,
 				96DB860C2C3DCA320088CC93 /* ActionSheetSwiftUIView.swift in Sources */,
 				96DB86122C3ED0250088CC93 /* ToggleSwiftUI.swift in Sources */,
+				96DB863A2C41BFAB0088CC93 /* FocusStateSwiftUIView.swift in Sources */,
 				96DB86042C3C7E8D0088CC93 /* TransitionSwiftUIView.swift in Sources */,
+				96DB86562C46E6EF0088CC93 /* ControlGroupSwiftUIView.swift in Sources */,
+				96DB86582C46E8380088CC93 /* ObservableMacroSwiftUIView.swift in Sources */,
 				96DB85F62C388D030088CC93 /* SafeAreaSwiftUIView.swift in Sources */,
+				96DB862E2C4078A50088CC93 /* AsyncImageSwiftUIView.swift in Sources */,
+				96DB863E2C4561390088CC93 /* NavigationStackSwiftUIView.swift in Sources */,
 				96DB86142C3ED13D0088CC93 /* PickerSwiftUIView.swift in Sources */,
+				96DB86442C45B4EC0088CC93 /* SafeAreaInsetsSwiftUIView.swift in Sources */,
+				96DB86542C46CBCA0088CC93 /* ContentUnavailableViewSwiftUIView.swift in Sources */,
 				96DB85FA2C3895FB0088CC93 /* SubviewsSwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +512,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,6 +542,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
